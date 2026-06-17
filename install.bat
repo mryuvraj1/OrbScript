@@ -1,3 +1,7 @@
+cat > install.bat << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 @echo off
 echo Installing OrbScript...
 echo.
