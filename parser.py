@@ -3,6 +3,10 @@ OrbScript Parser
 Converts tokens into an Abstract Syntax Tree (AST)
 """
 
+cat > parser.py << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 from typing import List, Optional
 from lexer import Token, TokenType, LexerError
 from ast import (
