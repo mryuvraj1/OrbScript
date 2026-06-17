@@ -1,0 +1,32 @@
+# Advanced Example: Simple Calculator
+say "=== OrbScript Calculator ==="
+
+func add_numbers
+    set a 10
+    set b 5
+    add a b
+    say "10 + 5 = "
+endfunc
+
+func multiply_numbers
+    set x 7
+    set y 8
+    mul x y
+    say "7 * 8 = "
+endfunc
+
+say "Performing calculations..."
+call add_numbers
+call multiply_numbers
+
+say ""
+say "Conditional test:"
+set value 42
+
+if value == 42
+    say "The answer is 42!"
+endif
+
+if value != 100
+    say "Value is not 100"
+endif
