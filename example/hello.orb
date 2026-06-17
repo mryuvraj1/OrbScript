@@ -1,0 +1,7 @@
+# Hello World Example
+say "Hello, World!"
+say "Welcome to OrbScript!"
+
+set name "OrbScript User"
+say "Hello, "
+show name
