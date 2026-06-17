@@ -3,6 +3,10 @@ OrbScript Lexer (Tokenizer)
 Converts source code into tokens for parsing
 """
 
+cat > lexer.py << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 from enum import Enum, auto
 from typing import List
 from dataclasses import dataclass
