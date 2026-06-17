@@ -1,3 +1,7 @@
+cat > ast.py << 'ENDOFFILE'
+# (Paste the entire AST code from the previous message here)
+ENDOFFILE
+
 """
 OrbScript Abstract Syntax Tree Node Definitions
 Defines all possible AST nodes for the language
