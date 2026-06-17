@@ -7,10 +7,11 @@ A clean, readable scripting language designed for automation, bots, and web appl
 ### Installation
 
 **Windows:**
-```batch
+```batch 
 install.bat```
 
 **Linux/Mac/termux**
+
 ```
 chmod +x install.sh
 ./install.sh
