@@ -1,0 +1,18 @@
+# Conditions Example
+set score 85
+
+say "Checking score..."
+
+if score >= 90
+    say "Excellent! Grade A"
+endif
+
+if score >= 80
+    if score < 90
+        say "Good job! Grade B"
+    endif
+endif
+
+if score < 60
+    say "Need improvement"
+endif
