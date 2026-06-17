@@ -1,4 +1,7 @@
+cat > install.sh << 'ENDOFFILE'
 #!/bin/bash
+# (Paste the installer script from earlier)
+ENDOFFILE
 
 echo "Installing OrbScript..."
 echo
