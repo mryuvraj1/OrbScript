@@ -1,0 +1,14 @@
+# Math Operations Example
+say "Basic Math Operations:"
+
+add 5 10
+say "5 + 10 = "
+
+sub 20 7
+say "20 - 7 = "
+
+mul 6 7
+say "6 * 7 = "
+
+div 100 4
+say "100 / 4 = "
