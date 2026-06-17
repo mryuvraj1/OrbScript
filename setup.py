@@ -10,7 +10,7 @@ setup(
     description="A custom programming language for automation and bots",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/orbscript",
+    url="https://github.com/mryuvraj1/OrbScript",
     py_modules=[
         "lexer",
         "parser", 
