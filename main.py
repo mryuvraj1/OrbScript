@@ -4,6 +4,10 @@ OrbScript Compiler CLI
 Main entry point for compiling and running OrbScript programs
 """
 
+cat > main.py << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 import sys
 import os
 import argparse
