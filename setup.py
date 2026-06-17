@@ -1,3 +1,7 @@
+cat > setup.py << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
