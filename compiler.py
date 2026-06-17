@@ -3,6 +3,10 @@ OrbScript Bytecode Compiler
 Converts AST into executable bytecode
 """
 
+cat > compiler.py << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 from ast import (
     ProgramNode, SetVariableNode, ShowVariableNode, SayNode,
     MathNode, IfNode, RepeatNode, FunctionDefNode, FunctionCallNode,
