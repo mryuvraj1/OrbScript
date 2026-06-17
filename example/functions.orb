@@ -1,0 +1,19 @@
+# Functions Example
+
+func greet
+    say "Hello from OrbScript!"
+    say "This is a function"
+endfunc
+
+func calculate
+    say "Calculating..."
+    add 10 20
+    say "10 + 20 = "
+endfunc
+
+say "Calling greet function:"
+call greet
+
+say ""
+say "Calling calculate function:"
+call calculate
