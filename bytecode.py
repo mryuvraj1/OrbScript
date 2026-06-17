@@ -1,3 +1,7 @@
+cat > bytecode.py << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 """
 OrbScript Bytecode Definitions
 Defines the instruction set for the virtual machine
