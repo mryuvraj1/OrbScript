@@ -3,6 +3,10 @@ OrbScript Virtual Machine
 Executes compiled bytecode
 """
 
+cat > vm.py << 'ENDOFFILE'
+# Paste the full code content
+ENDOFFILE
+
 from typing import Any, Dict, List
 from bytecode import Instruction, OpCode, BytecodeProgram
 
